@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio4_Basicos</title>
+</head>
+<body>
+    <script>
+        function impares(num1=0,num2=0){
+            let valor1 =Number (prompt("Dame un numero: "))
+            let valor2 =Number(prompt("Dame otro numero: "))
+
+            if(valor1<0 && valor2<0){
+                prompt("El numero es negativo, introduzca otro numero")
+                impares();
+            }else{
+                for(valor1;valor1<=valor2;valor1++){
+                    let resto = valor1%2;
+                    if(resto !=0){
+                        console.log("el numero es: "+valor1);
+                    }
+                }
+            }
+
+        }
+
+        function impares2(num1=0,num2=0){
+            let valor1 =Number (prompt("Dame un numero: "))
+            let valor2 =Number(prompt("Dame otro numero: "))
+            let resto = valor1%2
+
+            //COMPROBACION PARA SABER SI LA VARIANBLE ES NEGATIVO O POSITIVO
+            if(valor1<0 && valor2<0){
+                
+            }else if(valor1%2 !=0){
+                console.log(valor1)
+                valor1+=2;
+            }else{  
+              valor1++;
+            }
+        }
+            const impares2_0=(num1=0,num2=0) =>{
+            let valor1 =Number (prompt("Dame un numero: "))
+            let valor2 =Number(prompt("Dame otro numero: "))
+
+            if(valor1<0 && valor2<0){
+                prompt("El numero es negativo, introduzca otro numero")
+                impares();
+            }else{
+                for(valor1;valor1<=valor2;valor1++){
+                    let resto = valor1%2;
+                    if(resto !=0){
+                        console.log("el numero es: "+valor1);
+                    }
+                }
+            }
+
+        }
+        impares2_0();
+        //impares();
+        //impares2();
+    </script>
+</body>
+</html>

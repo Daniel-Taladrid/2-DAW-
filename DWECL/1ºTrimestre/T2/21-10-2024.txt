@@ -1,0 +1,11 @@
+aplicacion web que solicite una cadena dde texto 
+debe decir cuantas veces ocurre uno de estos patrones sin distinguir mayusculas y minusculas--> "00","101","ABC","HO"
+de: 1110101000ABCHO
+
+console.time()
+		----> nos da cuanto tarda en milisegundos el programa
+console.timeEnd()
+
+con el "for of"--> recorres lo que hay dentro del array 
+con el "for"--> recorres los indices del array
+con el "for in"-->recorres las claves de los objetos cuand se conocen el numeros de interacciones

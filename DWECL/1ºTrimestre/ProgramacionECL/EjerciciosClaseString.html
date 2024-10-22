@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let daw ="Desarrollo de aplicaciones web";
+        let dam ="Desarrollo de aplicaciones multiplataforma";
+        let asir ="Administracion de 'Sistemas Informaticos' en red"; // tambien al reves las comillas
+        let smr ="Sistemas informaticos y redes";
+        let ciclos = new String("");// no recomendable ??
+
+        ciclos="En este centro hay dos ciclos de grado superior: \n"+daw+", "+dam+" y un ciclo de grado medio: \n"+asir;
+        alert(ciclos);
+        alert(ciclos.charAt(16));
+        if(ciclos.charAt(16)> ciclos.charAt(4)){
+            alert("es mayor")
+        }else{
+            alert(ciclos.charAt(4))
+            alert("El caracter '"+ciclos.charAt(16)+"' es menor que el '"+ciclos.charAt(4)+"'")
+        }
+        alert(ciclos.indexOf("rad")); // metodo que te dice donde se encuenta caracter buscado
+        alert(ciclos.lastIndexOf("o"));
+
+
+    </script>
+</body>
+</html>

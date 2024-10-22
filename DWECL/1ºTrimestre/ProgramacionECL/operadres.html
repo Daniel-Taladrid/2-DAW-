@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores</title>
+</head>
+<body>
+    <script>
+         var x = 17; //typeoff
+        
+         //Operador de igualdad (==)
+         //alert("x==8 es "+(x==8)); // FALSE
+         //alert("x==17 es "+(x==17)); // TRUE
+         //alert("x=='17' es "+(x=='17')); //TRUE
+        
+         //Operador de igualdad estricta (===)
+         //alert("x===8 es "+(x===8)); // FALSE
+         //alert("x===17 es "+(x===17)); //TRUE
+         //alert("x==='17' es "+(x==='17')); //FALSE
+        
+         //Operador de desigualdad (!=)
+         //alert("x!=8 es "+(x!=8)); // TRUE
+         //alert("x!=17 es "+(x!=17)); //FALSE
+         //alert("x!='17' es "+(x!='17')); //FALSE
+        
+         //Operador de desigualdad estricta (!==)
+         //alert("x!==8 es "+(x!==8)); //TRUE
+         //alert("x!==17 es "+(x!==17)); //FALSE
+         //alert("x!=='17' es "+(x!=='17')); //TRUE
+        
+         //Operador de mayor que (>)
+         //alert("x>8 es "+(x>8)); //TRUE
+        
+         //Operador de menor que (<)
+         //alert("x<8 es "+(x<8)); //FASLE
+        
+         //Operador de mayor o igual que (>=)
+         //alert("x>=8 es "+(x>=8)); //TRUE
+        
+         //Operador de menor o igual que (<=)
+         //alert("x<=8 es "+(x<=8)); //FALSE
+
+         var x=4, y=2;
+         var resultado=(x < 4 && y> 1);
+         typeof(resultado);
+
+         //OPERADOR TERNARIO
+          //FORMATO: (condicion) ? resultado_cierto : resultado_falso
+         let edad = 22;
+         let puedeVotar = (edad>18) ? "Puede votar" : "NO puede votar";
+         alert(puedeVotar);
+
+         var x=10;
+         var y= x++;
+         console.log(x,y + " el valor de x = 10, al estar el ++ despues del valor se incrementa despues de asignarse");
+         console.log(typeof(x));
+         
+         var letra="0";
+         var falso="false";
+         var letra1="ES";
+         console.log(letra==false);
+         console.log(falso==false);
+         console.log(letra1, true);
+
+         let libroLeido = prompt("¿Cual es el titulo del ultimo libro que has leido?")
+
+        //FUNCIONES
+         function suma(a,b){
+            return a+b;
+         }
+         console.log(suma(6,7));
+        
+        
+     </script>
+</body>
+</html>

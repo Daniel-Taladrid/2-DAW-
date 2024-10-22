@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rombo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .diamond {
+            white-space: pre; /* Preserve whitespace for formatting */
+        }
+    </style>
+</head>
+<body>
+    <div id="output" class="diamond"></div>
+    <script>
+        var valor = Number(prompt("Dame un valor mayor o igual a 3"));
+        
+        // Validate input
+        if (isNaN(valor) || valor < 3) {
+            document.getElementById("output").innerText = "Por favor, introduce un número válido mayor o igual a 3.";
+        } else {
+            var espaciosBlanco = (valor + 1) / 2;
+            var result = '';
+
+            // Parte superior del rombo
+            for (let i = 1; i <= valor; i += 2) {
+                result += ' '.repeat(espaciosBlanco * 2); // Espacio en blanco
+                result += '*'.repeat(i); // Asteriscos
+                result += '\n'; // Nueva línea
+                espaciosBlanco--;
+            }
+
+            // Parte inferior del rombo
+            for (let i = valor - (valor % 2 === 0 ? 1 : 2); i >= 1; i -= 2) {
+                result += ' '.repeat(espaciosBlanco * 2); // Espacio en blanco
+                result += '*'.repeat(i); // Asteriscos
+                result += '\n'; // Nueva línea
+                espaciosBlanco++;
+            }
+
+            document.getElementById("output").innerText = result;
+        }
+    </script> 
+</body>
+</html>

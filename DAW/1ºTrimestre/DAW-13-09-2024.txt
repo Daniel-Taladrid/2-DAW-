@@ -1,0 +1,8 @@
+
+
+Aplicacion web:aplicacion cuya interfaz de usuario es accesible desde una navegador web, que ejecuta en un SERVIDOR WEB(recibe peticiones del cliente de tipo HTTP y HTTPS) al cual se accede mediante un CLIENTE WEB(envia peticiones al servidor con HTTP y HTTPS), necesita si o si al menos un SERVIDOR WEB y un CLIENTE WEB.
+
+API: application programming interfaces
+HTTP:
+HTTPS:
+URL: uniform resource locator. Estructura- protocolo, dominio y ruta.

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rombo</title>
+</head>
+<body>
+    <script>
+        var valor = Number (prompt("dame un valor mayor o igual a 3"));
+        var espaciosBlanco=(valor+1)/2;
+        
+        //parte superior del rombo
+       for(i=1;i<=valor;i=i+2){
+        for(j=1;j<=espaciosBlanco;j++) {  
+            
+            document.write("&nbsp;&nbsp");// PONER ESPACIO EN BLANCO
+        }
+        for(k=1;k<=i;k++){
+            document.write("*")
+        }
+        document.write("<br>")
+        espaciosBlanco--;
+        }
+
+       //parte inferior del rombo
+       for(i=valor-1;i>=0;i=i-2){
+        for(j=0;j<=espaciosBlanco;j++) {  
+            
+            document.write("&nbsp;&nbsp");// PONER ESPACIO EN BLANCO
+        }
+        for(k=1;k<=i;k++){
+            document.write("*")
+        }
+        document.write("<br>")
+        espaciosBlanco++;
+        }
+    </script> 
+</body>
+</html>

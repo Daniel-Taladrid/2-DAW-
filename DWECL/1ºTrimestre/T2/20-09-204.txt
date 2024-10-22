@@ -1,0 +1,16 @@
+Lenguajes:
+	HTML;CSS;JS
+Frameworks:
+	Angular;ReactJS
+
+QUE SON LOS LENGUAJES DE PROGRAMACION EN ENTORNO CLIENTE:
+	son los que se ejecutan en el navegador, en el lado del cliente de una arquitectura cliente/servidor
+
+JAVASCRIPT esta regulado por ECMA(organismo de javaScript)
+	Interpretrado--> no ha compilacion linea a linea
+	Orientado a objetos--> basados en prototipos=clonar y no neceariamente instanciar
+	Basados en objetos con funciones, ventanas... que se pueden reutilizar
+	Imperativo--> instrucciones explicitas mediante ordenes
+	Estructurado--> utiliza las estructuras basicas del lenguaje estructurado
+	Tipificado debil--> no necesita indicacion del tipo de variable
+	Tipificacion dinamica--> ese tipo puede cambiar a lo largo de la ejecucion

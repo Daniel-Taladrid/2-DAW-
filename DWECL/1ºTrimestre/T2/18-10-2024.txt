@@ -1,0 +1,49 @@
+datos primitivos: 
+	-cadena 
+	-numer
+	-booleano
+	-nulo o null
+	-do definido
+el resto son objetos de javaScript
+
+OBJETOS NATIVOS:	no dependen del navegador
+	-date	
+	-math
+	-RegExp(expresiones regulares)
+	-array
+	-fuction
+	-object
+
+OBJETOS DE ALTO NIVEL:	dependen del navegador
+	window
+	screem
+	navigator
+	location
+	history
+	document
+
+OBJETO:	es una coleccion de variables y funciones agrupadas estructuralmente
+	-variables = propiedades
+	-funciones = metodos
+
+CONSTUCTOR INTEGRADO: nos permite definir un objeo del tipo que sea
+			-todos los obgetos utilizan la misma sintaxis para definirse:
+				-- new <TipoObjetoNativo>([valor]);
+
+STRING: contine caracteres alfanumerico, con las cadenas se puede hacer:
+		-instanciar: crear un ejemplar del obheto
+		-concatenar: para poder juntar dos o mas cadenas
+		-medir:	con .lengh te da el valor(caracteres) que tiene la cedena
+		
+		Metodos:
+			-constructor
+			-prototype-->permite añadir propiedades y metodos a un objeto
+					objeto.prototype
+			-lengh-->muestrael numero de caracteres de una cadena
+
+
+
+
+
+
+

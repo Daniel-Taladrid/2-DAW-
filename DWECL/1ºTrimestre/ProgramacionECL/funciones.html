@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUNCIONES</title>
+</head>
+<body>
+    <script>
+        //NO UTILIZAR VARABLES LOCALES EN UNA FUNCION
+        
+        function saludo(){
+            alert("PRIMERA FUNCION")
+        }
+        var saludo2 =saludo();
+        
+        //CREAR FUNCION POR CONSTRUCTOR
+        var jjFuncion = new Function("a","b","return a*b");
+        var resultado2 = jjFuncion(6,7);
+        alert(resultado2);
+
+        // FUNCIONES PARAMETROS POR DEFECTO
+        function tablaMultiplicar(a){
+            var fin =10;
+            for(i=0;i<=fin;i++){
+                console.log(a,"x",i,"=",a*i)
+            } 
+        }
+        alert ("La tabla del "+tablaMultiplicar(6));
+
+        //FUNCIONES FLECHA (permiten definir de manera compacta una funcion)
+         var diHola= (name)=>`Hola ${name}`;
+
+
+    </script>
+</body>
+</html>

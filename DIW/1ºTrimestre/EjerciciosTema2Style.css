@@ -1,0 +1,84 @@
+body {
+    font-family: Verdana;
+    font-size: 10pt;
+    color: black;
+    background-color: grey;
+}
+
+.naranja {
+    color: orange;
+    background-color: blue;
+    padding: 10px;
+}
+
+.consola {
+    color: green;
+    font-family: Courier;
+    background-color: black;
+    padding: 10px;
+}
+
+.importante a {
+    text-decoration: none;
+    color: inherit; /* Hereda el color del padre */
+}
+
+.importante a:hover {
+    background-color: yellow;
+}
+    
+#litulo {
+    font-family: Verdana;
+    font-size: 40pt;
+    color: darkgrey;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    background-color: #333;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu li a {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: #555;
+}
+
+.submenu {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    background-color: #444;
+    z-index: 1000;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.submenu li a {
+    padding: 10px 15px;
+    color: white;
+}
+
+.submenu li a:hover {
+    background-color: #666;
+}

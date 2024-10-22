@@ -1,0 +1,28 @@
+REPASAR LAS CONSULTAS DE BASES DE DATOS{la clave primaria--> garantiza que no puede haber dos filas repetidas}(Normalizacion "importante", cada cosa en su sitio, es decir, por ejemplo: tabla cliente, solo los datos del cliente)
+
+https://www.php.net/manual/es/function.fopen.php (PAGINA DE CONFIANZA DE PHP)
+
+TODAS LAS FUNCIONES DE ARCHIVOS EMPIEZAN POR F.
+DIFERENCIAS ENTRE RETURN Y ECHO PHP
+mirar el metodo array_keys en php
+
+HTML-- XML ---> HTML se utiliza principalmente para estructurar y presentar contenido en páginas web. Es un lenguaje estático, diseñado para definir la apariencia visual de un sitio y facilitar la navegación del usuario. Por otro lado, XML se centra en la organización y el intercambio de datos de una manera más flexible y personalizable.
+
+PAGINAS WEB DINAMICAS--> usa lenguajes de programacion para generar cambios en el contenido de la pagina en funcion de un origen de datos (no es requisito interactuar con el usuario), no tiene nada q ver q el sofware sea de buena calidad, puede ser de mala calidad aunque sea dinamica
+PGINAS WEB ESTATICAS--> 
+
+CRITERIOS DE CALIDAD DE SOFTWARE:
+	(criterio)Mantenibilidad:
+		(tecnicas)un criterio indispensable esque la programacion este separada de los datos
+		(tecnicas)encapsular las funcionalidades (el encapsulamiento de funcionalidades frecuentes mejora la mantenibilidad), se hace por capas modelo MVC:
+				-Vista--> es lo que genera(.html,.sql,.xml,.txt,etc...), puede haber mas de dos vistas en un programa.
+      IMPORTANTE MVC-->		-Control--> todo lo que hacemos con los datos(leer, escribir, mostrar, etc...)
+				-Modelo--> mecanismos de persistenia(formato del codigo,memoria en el tiempo, si usas echo no tiene persistencia, los archivos son un mecanismo de persistencia)
+		
+	
+	(criterio)Reusabilidad--> codigo independinete, es decir, un codigo generico que te sirva para cualquier programa.
+
+1º una vez que se lea la linea se limpia toda es decir, en una linea de texto que tenga espacios, saltos de lina, comas, etc..., lo primero es quitarnoslas
+PARSEAR--> recorre y analiza una cadena de texto y dividirla para sacar la informacion  
+SECUENCIA CIRCULAR DE DATOS--> es una secuencia de numeros que se repiten, es decir, 1,2,3,4,5,6 -- despues del seis se vuele a repetir. En PROGRAMACION se usa el modulo"%" para el resto
+

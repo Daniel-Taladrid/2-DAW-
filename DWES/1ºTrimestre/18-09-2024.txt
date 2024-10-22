@@ -1,0 +1,10 @@
+mecanismos de persistencia-->
+
+que es la persistencia de una--> 
+que es el estado de una aplicacion--> guardar los valores de las variables
+
+URL LOCALHOST--> peticion get (el servidor ejecuta el codigo php genera respuestas HTML)
+
+las variables en PHP empiezan con el simbolo $ es un lenguaje no tipado tambien es un lenguaje
+las variables se guardan en 	stack (pila)--> es mas rapida se guardan de abajo arriba , 
+				heap-->

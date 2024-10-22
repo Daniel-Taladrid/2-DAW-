@@ -1,0 +1,8 @@
+placeholder--> establece un texto explicativo para el campo que se borra en 
+disabled--> deshabilita el campo haciendolo invisible
+disabled="true"
+
+autofocus--> recibe el foco automaticamente al cargar la pagina
+
+autocomplete--> permite o no al navegador autocompletar o sugerir el valor del formulario
+

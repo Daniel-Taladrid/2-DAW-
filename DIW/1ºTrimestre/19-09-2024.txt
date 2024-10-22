@@ -1,0 +1,2 @@
+wordpress, drupal(api, importante), joomla!, wix(plantillas acorde a lo que ceramos), weebly(generador de sitios web), squarespace(plantillas personalizables sin codigo)
+

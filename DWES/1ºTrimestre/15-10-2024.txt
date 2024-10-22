@@ -1,0 +1,33 @@
+PHP enbebido --> codigo html y en medio codigo php.
+si hacemos enviamos los datos mediante el metodo GET apareceran todos los datos en la URL, por eso siempre usaremos el metodo POST 
+(se usa siempre el metodo POST, NUNCA los metodos GET y REQUEST)
+
+metodo ISSET--> para determinar si una variable está declarada y si tiene un valor diferente a null.
+metodo EMPTY--> Se usa para determinar si la variable existe y si su valor no se evalúa como false. 
+
+Un array vacio lo convierte a boolean-->false
+una array que no este vacio --> true
+
+semantica en la programacion significa que traducir la semantica del lenguaje real a lenguaje informatico
+
+porque separamos el MVC en el codigo--> 
+especificación de requisitos--> es el contrato entre el cliente y el desarrollador.
+--->un formulario puede tener varios botones.
+
+CADA PETICION SON TOTALMENTE INDEPENDIENTES ES DECIR, PHP NO TIENE MEMORIA
+
+
+
+
+COOKIES Y SESIONES
+	Diferencias:
+		Cookies (son datos)--> los valores de las variables generadas en el servidor se almacenan en el CLIENTE; el servidor pide el valor al cliente;
+			es un pequeño archivo de informacion sobre el usuario que el servidor coloca en el equipo cliente con diferentes fines:
+				-Autenticar al usuario: de forma directa, es decir, solo la primera vez (login, contraseña)
+				-Diferenciar a los usuarios
+				-Seguimiento al usuario
+				-no pueden guardar informacion sensible (DNI,direccion...)
+
+		Sesiones--> los valores de las variables generadas en el servidor se almacenan en el SERVIDOR.
+			desde php vamos a poder destruir lo datos no como las cookies.
+				-todas las paginas de tipo servidor deben tener al inicio el "metodo sesion_start()";

@@ -1,0 +1,34 @@
+La dirección IP 127.0.0.1, que es tu localhost
+A un servidor qweb se accede mediante una direccion IP y un puerto
+
+COMANDOS:
+ls-->muestra un listado 
+cd--> entrar en un directorio
+pwd--> compruebo que estoy en ese directorio
+mkdir--> crear un nuevo directorio
+cd /usr/share/ngix/html--> ruta para acceder al index.html
+
+NGINX--> servidores web HTTP.
+puerto principal de docker es el 80
+instalacion de docker ejecutar como administrador y todo skip
+cada contenedor tiene--> id-image-command-created-status-ports-names
+container trabaja sobre el puerto 49000
+para acceder al docker en el navegador es localhost:49000
+
+COMANDOS DOCKER:
+docker run "nombre" (crea un nuevo contenedor)
+docker ps -a (muestra todos los contenedores que tengo)
+docker rm (para eliminar un contenedor que esta parado)
+docker run --name daniel -d nginx(crea un nuevo contenedor con el nombre de daniel), -d (deja el contenedor activo)
+docker stop daniel(detiene el contenedor que estaba activo con el nombre de daniel)
+docker start daniel(inicia el contenedor que estaba parado con el nombre de daniel)
+docker exec -ti daniel sh(habre una sell para trabajar nginx por comandos), exec-->(ejecuta un comando dentro de un contenedor)
+	exit(para salir de la sell de antes)
+docker run --name daniel2 -p 8080:80 -d nginx (la parte del comando -p 8080:80 le esta dando ese puerto publico, es decir, por fuera, internamente usa el 80)
+docker cp ejem1 daniel:/(para copiar un html y porder desplegarlo)
+
+que tengo que hacer para poner una pagina web mia{
+	1ºcrear una carpeta para alojar ahi el programa
+	2ºen la consola de comandos poner "docker cp ejem1 y la ruta donde esta la carpeta a desplegar"
+	3ºen el navegador hay que poner el nombre y el puerto en el que se encuentra
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 600px;
+            margin: auto;
+            display: grid;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Formulario</h1>
+
+<form>
+    <!-- Campo de texto -->
+    <label for="text">Texto:</label>
+    <input type="text" id="text" name="text" placeholder="Ingresa un texto">
+
+    <!-- Área de texto -->
+    <label for="textarea">Área de Texto:</label>
+    <textarea id="textarea" name="textarea" placeholder="Escribe tu mensaje aquí" rows="4"></textarea>
+
+    <!-- Campo de búsqueda -->
+    <label for="search">Buscar:</label>
+    <input type="search" id="search" name="search" placeholder="Buscar...">
+
+    <!-- Campo de correo electrónico -->
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" placeholder="nombre@ejemplo.com">
+
+    <!-- Campo de contraseña -->
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña">
+
+    <!-- Campo numérico -->
+    <label for="number">Número:</label>
+    <input type="number" id="number" name="number" placeholder="Número entre 1 y 100" min="1" max="100">
+
+    <!-- Campo de archivo -->
+    <label for="file">Seleccionar archivo:</label>
+    <input type="file" id="file" name="file">
+
+    <!-- Campo de URL -->
+    <label for="url">URL:</label>
+    <input type="url" id="url" name="url" placeholder="https://ejemplo.com">
+
+    <!-- Campo de teléfono -->
+    <label for="tel">Teléfono:</label>
+    <input type="tel" id="tel" name="tel" placeholder="123-456-7890">
+
+    <!-- Campo de fecha -->
+    <label for="date">Fecha:</label>
+    <input type="date" id="date" name="date">
+
+    <!-- Campo de hora -->
+    <label for="time">Hora:</label>
+    <input type="time" id="time" name="time">
+
+    <!-- Campo de fecha y hora -->
+    <label for="datetime">Fecha y hora:</label>
+    <input type="datetime-local" id="datetime" name="datetime">
+
+    <!-- Campo de semana -->
+    <label for="week">Semana:</label>
+    <input type="week" id="week" name="week">
+
+    <!-- Campo de mes -->
+    <label for="month">Mes:</label>
+    <input type="month" id="month" name="month">
+
+    <!-- Campo de color -->
+    <label for="color">Color:</label>
+    <input type="color" id="color" name="color">
+
+    <!-- Campo de rango -->
+    <label for="range">Rango:</label>
+    <input type="range" id="range" name="range" min="0" max="100">
+
+    
+    <button type="submit">Enviar</button>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+EC2--> elastic conteiner (como docker)
+
+(SEGURIDAD)proxy-->es un servicio que filtra peticiones http
+		si entras sin meter nada, es decir, solo con la direccion IP e filtro no te dejaria entrar  a la pagina
+		filtra desde fuera, es decir, si estas en la misma red local el proxy no afecta y te puedes conectar
+
+reglas de entradas--> regla de seguridad: puede recibir conexiones ssh, (puerto principal de ssh es el 22)
+
+-descargar-> el pem (AWS ditails en el laboratorio)
+-consola-> nos posicionamos en la carpeta "pem"
+	   ssh -i "nombre del pem" nombre usuario y direccion IP
+	   a la pregunta respondemos que si con "y"
+	   ls -a (para ver lo que hay dentro, si funciona)
+		
+instalacion de apache sobre amazon:
+	1º habrir los puertos adecuados en el grupo de seguridad(puertos-->80,443,53)
+	2º tener una IP fija (reservada) 
+	

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--
+    aplicacion web que solicite una cadena de texto 
+    debe decir cuantas veces ocurre uno de estos patrones sin distinguir mayusculas y minusculas-> "00","101","ABC","HO"
+    de: 1110101000ABCHO
+    -->
+    <script>
+        function dobleCero(numero){
+          letra = numero.indexOf("00");
+          return letra;
+        }
+
+        function cientoUno(numero){
+          cadena = numero.indexOf("101")
+          return cadena
+        }
+
+        function ABC(numero){
+            cadena = numero.indexOf("ABC")
+            return cadena
+        }
+
+        function HO(numero){
+            cadena = numero.indexOf("HO")
+            return cadena
+        }
+        texto = prompt("introduce una cadena de texto","1110101000ABCHO");
+        console.time();
+        alert (dobleCero(texto));
+        alert (cientoUno(texto));
+        alert (ABC(texto));
+        alert (HO(texto));
+        console.timeEnd();
+    </script>
+    
+</body>
+</html>

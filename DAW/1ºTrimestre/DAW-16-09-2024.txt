@@ -1,0 +1,23 @@
+
+Aplicacion web distribuida- Una aplicación con distintos componentes que se ejecutan en entornos separados, normalmente en diferentes plataformas conectadas a través de una red. El usuario interactua con un CLIENTE-WEB.
+Servidor WEB- recibe peticiones HTTP y envia respuestas HTTP pero no necesariamente ejecuta lenguajes del lado del SERVIDOR. En un servidor Web, los lenguajes del lado del servidor DEBEN añadirse como modulos 
+
+APACHE admite casi cualquier lenguaje de programación para crear aplicaciones web, como Python, PHP, Perl (SERVIDOR WEB(es lo mismo que servidor web pero solo entiende lenguaje java))
+-JAVA se ejecuta en lenguaje de servidor de aplicaciones
+
+javaScriptCLIENTE- es un codigo que se ejecuta en el dispotivo del cliente, es decir, no hay peticiones al servidor.
+lenguajes del lado SERVIDOR el codigo se ejecuta en el servidor y GENERAN peticiones al servidor cada vez que hay que modificar la pagina
+framework de desarrollo web- conjunt de HERRAMIENTAS, BIBLIOTECAS, etc...diseñadas para facilitar el proceso de creacion de aplicaciones web. Ejemplos:XpressJS, AngularJS, React, Laravel, Symphony, etc.
+despliegue de aplicaciones web- PROCESO de transferir y configurar recursos y/o aplicaciones en un servidor web o servidor de aplicaciones para que este displonible a traves de Internet. En el ciclo de vida sel software se situa despues de la fase de desarrollo.
+
+Diferencias entre lenguajes interpretados y compilados:
+	En un lenguaje compilado, el código se traduce en un archivo ejecutable antes de la ejecución, mientras que en un lenguaje interpretado, el código se ejecuta directamente.
+	Los lenguajes compilados suelen ser más rápidos y eficientes, mientras que los interpretados son más portables y fáciles de depurar.
+	Los lenguajes compilados son menos flexibles que los lenguajes interpretados.
+	Los lenguajes compilados muy raro van a poder generar programas multiplataforma.
+	Un intérprete es un programa que ejecuta directamente las instrucciones escritas en un lenguaje de programación dado.
+	Un compilador es un programa que transforma el código fuente de un programa a su equivalente en otro lenguaje de programación de más bajo nivel.
+
+Dentro de los lenguajes de programacion tenemos:
+	-lenguajes de script o interpretados: no se copilan, se interpretan linea a linea.(PHP,javascript,Python)
+	-lenguajes copilados se compilan un archivo ejecutable o interpretable, que es el que se ejecuta o interpreta.

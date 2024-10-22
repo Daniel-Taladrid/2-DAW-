@@ -1,0 +1,50 @@
+estructura de una URL
+
+cuando uno ejecuta una pagina, si el servidor tiene codigo lo que nos devulve es la salida del resultado del codigo, no nos muestra el codigo.
+que tengo que poner a mi equpio para conectarme a una red local
+		IP--> estatica
+		IP--> dinamica
+mascara de red equipo local
+puerta de enlace predeterminda conexion a internet
+
+PROTOCOLOS PARA EL DESPLIEGUE:
+	DNS-->cambias cambiar la IP sin cambiar de nombre(domain name system)
+	fpt--> file transfer protocol
+	ssh--> secure shell(acceso a un servidor remoto por medio de un canal seguro, es decir, CIFRADO)
+
+LAS APLICACIONES WEB TRABAJAN SOBRE:
+	HTTPS-->puerto 443 por defecto
+	HTTP-->puerto 80 por defecto
+Ademas del router cunado desplegamos en INternet tendremos un servidor PROXY():
+	 Algunas de las funciones que puede cumplir un servidor proxy son23:
+		Filtrar contenido(las peticiones tanto de entrada como de salida)
+		Ocultar la dirección IP
+		Almacenar caché
+		Control de acceso
+
+FUNCIONAMIENTO DEL DNS:  (un servidor DNS tiene una cache con nombre que ya tiene resueltos. Esto te permite agilizar la resolucion de nombre)
+	- al recibir una url con nombre(no con IP, no hace nada):
+		.se consulta en la cache LOCAL del sistema operativo. Si se encuentra, no se hace nada mas
+		.si no se encuentra se hae una peticon al DNS configurado en la red del sistema operativo
+		.si el DNS que tenemos configurado tiene en su cache almacenada la ip del nombre que buscamos, nos da IP directamente
+		.si no, realizxara peticiones a los DNS de los subdominios del nombre
+
+		Los dns son servidores organizados de manera jerarquica. Esto significa que hay DNS para .es, .com, .org, etc.. para difentes areas de dominios
+
+	cuando contratamos un proveedor de intenet(ISP), nos proporcionara una serie de DNS para nuestro dominio
+
+NOMBRES DE DOMINIO
+	vamos a ver que significa cada elemento de una URL
+	1º URL basica--> 
+	https://www.mitienda.es
+		https: --> protocolo para comunicar el cliente y el servidor web
+		www.mitienda.es --> FONDN Fully Qualified Domain Name: es el fragmento de la url que permite ser convertido a una IP
+			dentro de FONDN podemos distingur varios elementos:
+				-www: tradicionalmente, el primer campo correspondia al nombre de la maquina(hostname)
+				-mitienda.es: nombre del dominio y ademas ".es" se llama TLD(Top-Level Domain)
+una url tiene al menos dos componentes:
+	protocolo-->
+	FQDN-->
+
+comando --> nslookup para conocer la IP de una URL. Funciona tanto en windows como en linux
+	

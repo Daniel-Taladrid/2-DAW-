@@ -1,0 +1,8 @@
+if/else
+switch
+for--> for in , for of
+while
+do while
+
+break--> termina el bucle(sin etiquetas se usa en )
+continue--> termina la ejecucion de las sentencias 

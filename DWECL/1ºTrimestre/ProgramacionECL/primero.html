@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <h1>instrucciones de salida</h1>
+    <p id="frase">parrafo de prueba</p>
+    <script>
+        window.alert("Atencion");
+        document.write("<h2>¿Que tal?</h2>"); // solo para testear... se pueden usar etiquetas dentro 
+        document.getElementById("frase").innerHTML += 5 / 7;
+        console.log("Hola caracola"); // lo muestra en la consola del navegador
+        console.warn("peligro");
+        console.error("error de codigo");
+        {
+            var primeraVariable = "Visible fuera del bloque";
+            function miFuncion() {
+                var primeraVariable = "Declarada dentro del bloque"
+                return 0;
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+.String()
+.toString()--> combierten todo a una cadena de caracteres
+.Number()--> combierten todo a un numero
+.parseInt--> convierte a cadena de entero
+.parseFloat()--> convierte a cadena decimal
+.toDateString()--> convierte vatiable de tipo fecha a String
+.toUTCString()--> hora utc 
+.toFixed(0)--> devuelve un numero sin decimales(los decimales que queramos van indicados dentro de parentesis, si el numero no tiene mas decimales imprimira 0 hasta que se complete los decimales indicados)
+
+
+
+COERCION--> es la conversion automatica o implicita de valores de un tipo de dato a otro, la coercion es implicita mientras que la conversion es explicita
+
+TEMPLATE LITERALS
+	el uso de ` --> sirve para poner dentro de una cadena de variables y expresiones que seran evaluadas al ponerlas dentro de ${}.
+			`El visitante tiene $(edad) años`.(de esta manera se concatena)
+
+	TODO ESTO SE APLICA PARA LOS NUMBERS Y LOS BOOLEANS
+NaN(Not a Number)--> indica que el esultado de la operacion no puede ser convertido a un numero.
+El tipo de null (typeof(null))--> que es de tipo objeto
+Cadena vacia(" ")
+undefined
+
+

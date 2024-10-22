@@ -1,0 +1,56 @@
+Elasticidad capacidad de una aplicacion web de redimensionarse para aprobechar al maximo los recursos que tiene
+
+TIPOS DE DESPLIEGUE:
+	Alojamiento(hosting) tradicional--> consiste en alquilar un espacio para poder tener una direccion ip propia
+	hosting en la nube--> permite qe tu puedas desplegar de forma virtual, son mas agiles, puedo poner reglas para por ejemplo el control de peticiones (puede crear otro servidor)
+	escalar mas grande o mas pequeño tolerantes a fallos que sigue funcionando aunque surga un fallo(replica el servidor por si se cae).
+APLICACIONES WEB:
+	servidor fisico o virtuales, no en el dispositivo del usuario
+	pueden entender miles de peticiones simultaneas, no uno solo
+	es muy habitual que se necesiten varios servidores para una unica aplicacion web(por escalabilidad(debido a que el flujo de peticiones no es constante) y tolerancia a fallos).
+LOS RECUSOS:
+	codigo y recursos estaticos (solo requiere transferencia)
+	servicios adicionales (transdferir los recursos) protocolo de transferencia de archivos(FTP, hay que configurarlo)
+TIPOS DE ALOJAMIENTO:
+	Compartido--> varias aplicaciones web conviven en la misma maquina fisica, el desarrollador no tiene control sobre el servidor.
+	Dedicado--> el cliente dispone de una maqina fisica que controla.
+	Virtual--> el cliente dispone de una maquina virtual que controla completamente y se ejecuta en un servidor fisico compartido con otras maquinas virtuales
+COMPUTACION EN LA NUBE:
+	la computacion en la nube es un concepto de marketing mas que un concepto técnico.
+	cuando los proveedores utilizan la palabra cloud(configurar y redimensionar los recursos)de forma rapida y sencilla.
+	dado que son tan dinamicos se sule cobrar por tiempo de uso.
+	los recursos de computacion en la nube suelen estar virtualizados, aunque en algunas ocasiones pueden ser maquinas fisicas.
+CLOUD COMPUTING:
+	servidores virtuales
+	gestion del sistema operativo que tendran los servidores
+	sistema de copias de seguridad
+	balanceadores de carga entre servidores--> (Actúa como un sistema proxy inverso y distribuye el tráfico de la red y/o aplicación en diferentes servidores)
+	bases de datos administradas
+	servicios de gestion de logs, monitorizacion, alarmas...
+	plataforma auto-escalable para la ejecucion de aplicaciones.
+	-los servicios ofrecidos por los proveedores pueden ser de diferentes niveles de abstraccion
+		-desarrolladores
+			infraestructuras como servicio de bajo nivel
+			infraestructuras como servicio de medio nivel
+
+INFRAESTRUCTURA COMO SERVICIO
+	servidores
+	balanceos de carga
+	gestion de sistemas operativos
+	copias de seguridad de servidores
+	almacenamiento de datos
+	direccionesIP
+	servidoresDNS --> sistema de nombres de dominio si falla el DNS se pierde todo
+
+PLATFORM AS A SERVICE (PaaS)
+	plataforma para el despliegue de aplicaciones web
+		esta diseñada para ser escalable de forma automatica
+		dependiendo del proveedor existen plataformas para las tecnologias
+		la plataforma ofrece servicios adicionales como un servicio como : BBDD, servidor de correos, bus de comunicaciones
+SOFTWARE AS A SERVICE (SaaS)
+	El Software se ofrece como un servicio por Internet
+		el usuario no instala el software, lo usa via web
+		generalmente se paga
+
+
+

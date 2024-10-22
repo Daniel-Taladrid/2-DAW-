@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2_Basicos</title>
+</head>
+<body>
+    <script>
+
+        function pedirNumero(suma=0, contador=0){
+            let valor1=(prompt("dame un valor: ")) // el prompt guarda siempre el valor como STRING
+            if(valor1>0){
+                suma+=parseInt(valor1);
+                contador++;
+                
+                pedirNumero(suma,contador);
+            }else{
+                alert("la suma de estos valores es: "+suma);
+                alert("la media de estos valores es: "+media(suma,contador));
+            }
+        }
+        
+        function media(a,b){
+           media1 = a/b;
+           return media1;
+        }
+
+        pedirNumero();
+    </script>
+</body>
+</html>

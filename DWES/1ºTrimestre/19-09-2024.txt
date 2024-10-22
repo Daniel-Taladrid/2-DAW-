@@ -1,0 +1,19 @@
+ORDENACION DE ARRAYS:
+	sort() – orden ascendente 
+	• rsort() – orden inverso (descendente) 
+	• asort() - ordenar arrays asociativos por sus valores, en orden ascendente 
+	• ksort() - ordenar arrays asociativos por sus claves, en orden ascendente 
+	• arsort() - ordenar arrays asociativos por sus valores, en orden descendente 
+	• krsort() - ordenar arrays asociativos por sus claves, en orden descendente 
+
+DIFERENCIAS ENTRE LA PROGRAMACION ESTRUCTURADA Y LA PROGRAMACION ORIENTADA A OBJETOS:
+	 las principales diferencias entre la programación orientada a objetos y la programación estructurada radica en su enfoque. 
+	 Mientras que la POO se centra en los objetos y su interacción, la programación estructurada se enfoca en la secuencia de instrucciones.
+	 POO promueve la reutilización de código a través de las HERENCIAS,
+	 mientras que la programación estructurada se basa en la división de un problema en subproblemas más pequeños. 
+	 En la programación estructurada, se utilizan estructuras de control como bucles y condicionales para organizar el flujo de un programa de manera clara y eficiente.
+	 SE CENTRA PRINCIPALMENTE EN LOS DATOS Y LA ESTRUCTURADA EN LOS PROCESOS QUE SON MUY DEPENDIENTES DE LOS DATOS
+
+POO SE CENTRA EN LOS PROCESOS MIENTRAS QUE LA PROGRAMACION ESTRUCTURADA SE CENTRA EN EL ANALISIS DE LOS PROCESOS QUE RECIBEN LOS DATOS, POR ESO EN LA POO AL CENTRARSE EN LOS DATOS CREAMOS LOS PROCESOS
+
+EN PROGRAMACION DE PHP SI PONES UN .= TE CONCATENA LOS CARACTERES SIN SUSTITUIRLOS.

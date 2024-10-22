@@ -1,0 +1,39 @@
+Modelizacion de aplicaciones web:
+	se entiende por capa cada elemento que procesa o trata la informacion.
+	en un modelo de n-capas la informacion atraviesa varias capas entre la interfaz y la administracion de datos
+	lo mas habitual es el modelo de TRES CAPAS:
+						diseñada para superar limitaciones del modelo de dos capas 	
+						una capa intermedia contiene la logica del negocio
+						las aplicaciones web actualesse ajustan a este modelo
+
+						Detalles modelo de TRES CAPAS:
+							capa de presentacion--> recoge informacion del usuario y la envia al servidor para que la capa de negocio la procese
+									    --> procesa determinada informacion
+							capa de aplicacion proceso o negocio-->
+							capa de datos-->	
+
+Arquitectura de un navegador:
+	User interface(interfaz de usuario)-->
+	Browser engine()-->
+	Rendering engine(motor de rederizado)-->
+	data persistence(subsistema de persistencia de datos)-->gestion del historial
+							     -->mantenimiento de sesiones de usuarios
+							     -->almacenamiento de las preferencias del usuario
+							     -->gestion del listado de...
+	Comunicaciones-->implementa los protocolos de transferencia de ficheros
+		      -->es responsable de la cadoficacion usada, en texto,audio,video...
+		      -->puede almacenar una cache de elementos
+	intermetre de javaScript:
+			
+	tema de librerias graficas:	
+
+
+
+
+
+motor de renderizado que utiliza Edge --> BLINK
+motor de renderizado que utiliza Explorer--> trident
+motor de renderizado que utiliza Firefox--> Gecko
+motor de renderizado que utiliza Google Chrome--> Blink
+motor de renderizado que utiliza Opera GX--> WebKit
+motor de renderizado que utiliza Safari--> WebKit

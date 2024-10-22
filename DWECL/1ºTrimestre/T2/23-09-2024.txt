@@ -1,0 +1,10 @@
+defer--> significa que el script
+async-->
+
+en <head> ANTES de empezar a dibujar la pagina
+en <body> durante el dibujado de la pagina
+antes de </body> DESPUES de dibujar la pagina
+
+el .innerHTML te permite cambiar lo que quieras de un html en javaScript
+
+var, const y let para la declaracion de variables.

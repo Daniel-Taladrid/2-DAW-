@@ -1,0 +1,6 @@
+.Comando para ver todos los puertos que hay libres--> neststat -a -p TCP -n
+.puerto 443 es el puerto principal para el https
+.puerto 2206 es el puerto por defecto de mysql
+.el comando mysql -u root -p --> nos permite entrar desde la consola 
+
+QUE ES UN CMS -->es un gestor de contenidos es un software diseñado para facilitar la creación, edición, organización y publicación de contenido digital en sitios web

@@ -1,0 +1,33 @@
+gitignore(crea un fichero para que todo lo que este dentro a la hora de hacer un push el git lo va a ignorar).
+
+.pagina estatica: esta totalmente albergada sin variacion es decir informativa que siempre me puedo traer.(su contenido no cambia)
+.pagina dinamica: pagina web que puedes interactuar con ella a demas de que puede recibir cambios a traves de un usuario con privilegios(usan lenguajes de programacion o script para interactuar con el usuario)
+
+cualquier pagina usa si o si HTML CSS y JAVASCRIPT
+
+JAVASCRIPT(es multiplataforma)
+
+arquitectura cliente-servidor(frontend-backend)
+clientes pesados y ligeros
+el mas ligero es una navegador
+
+desarrollo en ambos entornos:
+	logica:
+		servidor-->de negocio
+			-->de almacenamiento
+		cliente
+
+www-
+http,https- protocolo
+websocket- esta definido por una direccion ip y un puerto(el puerto se puede cambiar en el index, al pricipio del codigo de html).
+url- Localizador Uniforme de Recursos(direccion de la pagina web)
+ajax- mezcla entre javascript y html
+aplicaciones de multiples paginas-cada acceso a una seccion implica la carga completa, hay refresco de pantalla, por ejemplo(hithub)
+aplicaciones de una pagina(SPA)- la logica de cliente se descarga una unica vez, por ejemplo(gmail)
+
+Como funciona el cliente-servidor:
+	El cliente realiza la solicitud de un recurso o un servicio al servidor. ...(conectarse)
+	El servidor recibe la solicitud y procesa la entrada de datos enviada por el cliente, componiendo una respuesta.
+	Esa respuesta se envía por la red hasta llegar al cliente que la recibe, y generalmente, muestra una salida adecuada para el usuario.
+
+

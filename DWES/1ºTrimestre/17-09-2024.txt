@@ -1,0 +1,40 @@
+contraseña del aula virtual--> 2425DWES
+
+EN LAS APLICACOINES DEL LADO DEL CLIENTE ES NECESARIO UN SERVIDOR WEB? --> si, porque una aplicacion web necesita si o si 
+
+Definicion de desarrollo web en entorno servidor--> desarrollo de aplicaciones web cuya logica se codifica mediante lenguajes de programacion que se ejecutan en el servidor.Ejemplo(PHP,JAVA).
+Aplicacion WEB-->aplicaion distribuida, cuya interfaz de usuario es accesible desde un cliente web y se ejecuta en un servidor (WEB= protocolo HTTP).
+Patron MVC (Modelo-Vista-Controlador)--> es un patrón de diseño de software comúnmente utilizado para implementar interfaces de usuario, datos y lógica de control.
+Modelo Osi--> tiene 7 capas que son:
+	Nivel Físico--> La capa física incluye estándares para tecnologías y métricas estrechamente relacionadas con los canales, como Bluetooth, NFC y velocidades de transmisión de datos.
+	Nivel Enlace--> va conectado a la tarjeta de red o a un adaptador wifi, direccion MAC
+	Nivel de Red--> aporta una direccion IP internet router
+	Nivel de Transporte--> Protocolo de Control de Transmisión (TCP), Protocolo de datagramas de usuario (UDP) todo va a un puerto.
+
+URI--> identificador uniforme de recursos
+URL--> localizador uniforme de recursos
+
+Ventajas del modelo cliente/servidor:
+	facilidad de mantenimiento y actualizacion de software del lado servidor que beneficia a multiples clientes.
+	aumenta la seguridad e integridad de los datos ya que se encuentran fisicamenteubicados en los servidores, detras de los cortafuegos y con personal dedicado.
+	faculita la integracion entre sistemas diferentes, ya que se pueden utilizar equipos con sistemas operativos.
+	escalabidad:
+		escalado horizontal-> el incremento del numero de clientes es facilmente absorbido mediante replicacion de servidores
+		escalado vertidal-> los servidores pueden descomponese en grupos segun la funcion (solicitud/respuesta)
+Desventajas del modelo cliente/servidor:
+	saturacion del servidor por un elevado numero de perticiones o ataques DDOS(Denegacion de Servicio).
+	paradas de funcionamiento del servidor por tareas de mantenimiento, aunque esto se puede solucionar facilmente con soluciones de alta disponibilidad.
+	
+Capas de una aplicacion WEB:
+	capa de presentacion (interfaz de usuario)-> interacciona con el usuario presenta los datos y recibe las entradas
+	capa de aplicacion -> implementa la logica de la aplicacion y aplica las reglas de negocio sobre los datos y las entradas de usuario (se comunica con otras capas)
+	capa de persistencia o de datos -> responsable de la gestion y lamacenamiento de los datos, formado por una o mas gestores de bases de datos que administran y resuelven las solicitudes de almacenamiento
+
+las aplicaciones web son independientes para los sistemas operativos de las maquinas porque utilizan el protocolo HTTP.
+
+tipos de desarrollo WEB:
+	servidor de aplicaiones-> se trata de una aplicacion que tiene la capacidad de interpretar lenguajes de lado servidor como JavaEE
+			       -> soporta los EJB que son cales especiales para gestionar la logica de negocio 
+			       -> permite la conectividad con los otros servidores de aplicaciones para el funcionamiento de los servicios web
+			       -> incorpora un servidor web para enviar los documentos HTML al cliente
+
